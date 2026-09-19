@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    padding: 20px 0;
+    max-width: 1000px;
+    background-color: #e7f0f9;
+    color: #0c1117;
+    font-family: "Segoe UI", sans-serif;
+}
+
+header {
+    margin-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+    background-color: #ffffff;
+    border-bottom: 2px solid #306ee8;
+    border-radius: 12px 12px 0px 0px;
+}
+
+header h1 {
+    margin: 0;
+    color: #306ee8;
+}
+
+header p {
+    margin-top: 0.5em;
+}
+
+section,
+aside {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 2px solid #5c9aea;
+    border-radius: 12px;
+    background-color: #ffffff;
+}
+
+h2 {
+    margin-top: 0;
+    padding-bottom: 8px;
+    color: #306ee8;
+    border-bottom: 2px solid #5c9aea;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: 600;
+}
+
+input,
+textarea {
+    margin: 5px 0 10px;
+    padding: 10px;
+    border: 1px solid #5c9aea;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    border-color: #306ee8;
+}
+
+button {
+    padding: 15px 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    background-color: #5c9aea;
+    font-size: inherit;
+    font-weight: bold;
+    transition:
+        background-color 0.2s,
+        color 0.2s;
+}
+
+button:hover {
+    background-color: #306ee8;
+    color: #ffffff;
+}
